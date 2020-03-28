@@ -1,0 +1,43 @@
+.logon-container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.logon-container > .wrapper {
+    margin-right: 30px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.logon-container > .wrapper > .form {
+    margin-top: 100px;
+}
+
+.logon-container > .wrapper > .form > h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.logon-container > .wrapper > .form > a {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.2s linear;
+}
+
+.logon-container > .wrapper > .form > a:hover {
+    opacity: 0.8;
+}
+
+.logon-container > .wrapper > .form > a > svg {
+    margin-right: 10px;
+}
