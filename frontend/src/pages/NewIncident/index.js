@@ -52,29 +52,28 @@ export default function NewIncident() {
                     <Link className="action-link" to="/profile"><FiArrowLeft size={16} color="#e02041" />Voltar para home</Link>
                 </section>
 
-                <div className="form-wrapper">
-                    <form onSubmit={handleNewIncident} className="form">
-                        <input
-                            placeholder="Título do caso"
-                            value={title}
-                            onChange={e => setTitle(e.target.value)}
-                        />
+                <form onSubmit={handleNewIncident} className="form">
+                    <input
+                        placeholder="Título do caso"
+                        value={title}
+                        onChange={e => setTitle(e.target.value)}
+                    />
 
-                        <textarea
-                            placeholder="Descrição"
-                            value={description}
-                            onChange={e => setDescription(e.target.value)}
-                        />
+                    <textarea
+                        placeholder="Descrição"
+                        value={description}
+                        onChange={e => setDescription(e.target.value)}
+                    />
 
-                        <input
-                            placeholder="Valor em reais"
-                            value={value}
-                            onChange={e => setValue(e.target.value)}
-                        />
+                    <input
+                        placeholder="Valor em reais"
+                        value={value}
+                        onChange={e => setValue(e.target.value)}
+                    />
 
-                        <button className="action" type="submit">Cadastrar</button>
-                    </form>
-                </div>
+                    <button className="action" type="submit">Cadastrar</button>
+                </form>
+
             </div>
         </div>
     );

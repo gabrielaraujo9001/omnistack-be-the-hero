@@ -30,6 +30,7 @@ export default function Logon() {
         <div className="logon-container">
 
             <section className="wrapper">
+                
                 <img src={logoImg} alt="Be The Hero" className="logo"/>
 
                 <form onSubmit={handleLogin} className="form">

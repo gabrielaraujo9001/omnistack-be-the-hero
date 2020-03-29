@@ -1,5 +1,4 @@
 .profile-container {
-    /* display: flex; */
     margin: 32px auto;
     max-width: 1280px;
     padding: 30px;
@@ -23,19 +22,19 @@
 
 .profile-container > .header > .action {
     margin-left: auto;
-    width: 260px;
     margin-top: 0;
     text-decoration: none;
+    width: 260px;
 }
 
 .profile-container > .header > button {
-    height: 60px;
-    width: 60px;
-    border-radius: 4px;
-    border: 1px solid #dcdce6;
     background-color: transparent;
+    border: 1px solid #dcdce6;
+    border-radius: 4px;
+    height: 60px;
     margin-left: 20px;
     transition: border-color 0.2s linear;
+    width: 60px;
 }
 
 .profile-container > .header > button:hover {
@@ -43,30 +42,30 @@
 }
 
 .profile-container > h1 {
-    margin-top: 80px;
     margin-bottom: 24px;
+    margin-top: 80px;
 }
 
 .profile-container > .incidents {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 24px;
+    grid-template-columns: 1fr 1fr;
     list-style: none;
 }
 
 .profile-container > .incidents .item {
     background-color: #fff;
-    padding: 24px;
     border-radius: 8px;
+    padding: 24px;
     position: relative;
 }
 
 .profile-container > .incidents .item button {
+    border: 0;
+    opacity: 0.75;
     position: absolute;
     right: 24px;
     top: 24px;
-    border: 0;
-    opacity: 0.75;
 }
 
 .profile-container > .incidents .item > button:hover {
@@ -74,9 +73,9 @@
 }
 
 .profile-container > .incidents .item strong {
+    color: #41414d;
     display: block;
     margin-bottom: 16px;
-    color: #41414d;
 }
 
 .profile-container > .incidents .item p + strong {
@@ -86,7 +85,7 @@
 
 .profile-container > .incidents .item p {
     color: #737380;
-    line-height: 21px;
-    font-size: 16px;
     display: block;
+    font-size: 16px;
+    line-height: 21px;
 }

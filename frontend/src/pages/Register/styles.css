@@ -9,14 +9,14 @@
 }
 
 .register-container > .content {
-    width: 100%;
-    padding: 96px;
+    align-items: center;
     background-color: #f0f0f5;
-    box-shadow: 0 0 100px rgba(0,0,0,0.1);
     border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 96px;
+    width: 100%;
 }
 
 .register-container > .content > .main {
@@ -37,8 +37,8 @@
 }
 
 .register-container > .content > .form-wrapper {
-    width: 100%;
     max-width: 450px;
+    width: 100%;
 }
 
 .register-container > .content > .form-wrapper > .form > input {
